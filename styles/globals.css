@@ -1,16 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+@import "../src/lib/css/animate.min.css";
+@import "../src/lib/css/bootstrap.min.css";
+@import "../src/lib/css/custom.css";
+@import "../src/lib/css/jquery-ui.css";
+@import "../src/lib/css/jquery.mCustomScrollbar.min.css";
+@import "../src/lib/css/meanmenu.css";
+@import "../src/lib/css/nice-select.css";
+@import "../src/lib/css/normalize.css";
+@import "../src/lib/css/owl.carousel.min.css";
+@import "../src/lib/css/responsive.css";
+@import "../src/lib/css/slick.css";
+@import "../src/lib/css/style.css";
