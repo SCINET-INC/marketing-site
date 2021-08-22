@@ -16,6 +16,10 @@ jobs:
         node-version: [14.x]
 
     steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: Check Out Files
         uses: actions/checkout@v2
       - name: Use Yarn Cache
@@ -33,9 +37,12 @@ jobs:
       - name: Build
         run: |
           yarn build
-
+      - name: Export static files
+        run: yarn export
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          publish_dir: ./out
+          branch: gh-pages
+          folder: out
