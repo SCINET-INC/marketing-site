@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 
 import React from "react";
 import { Navbar } from "..";
@@ -29,7 +30,7 @@ export default function Main() {
             <div className="col-md-7">
               <div className="text-img">
                 <figure>
-                  <img src="/img.png" alt="get-started" layout="fill" />
+                  <img src="/img.png" alt="get-started" />
                 </figure>
               </div>
             </div>
@@ -49,7 +50,7 @@ export default function Main() {
             <div className="col-md-12">
               <div className="web_hosting">
                 <figure>
-                  <img src="/web.jpg" alt="#" layout="fill" />
+                  <img src="/web.jpg" alt="#" />
                 </figure>
                 <p>
                   We know that your work means more to you than anything. SCINET
@@ -83,7 +84,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service1.png" alt="#" layout="fill" />
+                  <img src="/service1.png" alt="#" />
                 </i>
                 <h3>Enhance your Research</h3>
                 <p>
@@ -95,7 +96,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service2.png" alt="#" layout="fill" />
+                  <img src="/service2.png" alt="#" />
                 </i>
                 <h3>Get the Funding You Need</h3>
                 <p>
@@ -107,7 +108,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service3.png" alt="#" layout="fill" />
+                  <img src="/service3.png" alt="#" />
                 </i>
                 <h3>Secure your Intellectual Property</h3>
                 <p>
@@ -120,7 +121,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service4.png" alt="#" layout="fill" />
+                  <img src="/service4.png" alt="#" />
                 </i>
                 <h3>Invest in Science and “Data”</h3>
                 <p>
@@ -133,7 +134,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service5.png" alt="#" layout="fill" />
+                  <img src="/service5.png" alt="#" />
                 </i>
                 <h3>Decentralized Publishing and Peer Review</h3>
                 <p>
@@ -145,7 +146,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
                 <i>
-                  <img src="/service6.png" alt="#" layout="fill" />
+                  <img src="/service6.png" alt="#" />
                 </i>
                 <h3>Help Others Leverage your Data</h3>
                 <p>
@@ -179,7 +180,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div id="box_ho" className="why-box">
                 <i>
-                  <img src="/why1.png" alt="#" layout="fill" />
+                  <img src="/why1.png" alt="#" />
                 </i>
                 <h3>Organic Enhancement of Laboratory Workflows</h3>
                 <p>
@@ -198,7 +199,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
                 <i>
-                  <img src="/why2.png" alt="#" layout="fill" />
+                  <img src="/why2.png" alt="#" />
                 </i>
                 <h3>One-of-a-kind Investment Opportunities</h3>
                 <p>
@@ -216,7 +217,7 @@ export default function Main() {
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
                 <i>
-                  <img src="/why3.png" alt="#" layout="fill" />
+                  <img src="/why3.png" alt="#" />
                 </i>
                 <h3>Novel Funding Sources and Revenue Streams for your Lab</h3>
                 <p>
