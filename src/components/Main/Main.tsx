@@ -124,7 +124,7 @@ export default function Main() {
                 <i>
                   <img src={`${prefix}/service4.png`} alt="#" />
                 </i>
-                <h3>Invest in Science and “Data”</h3>
+                <h3>Invest in Science and Data</h3>
                 <p>
                   Participate in the growth, potential, and excitement of the
                   next generation of life sciences research, no matter who you
