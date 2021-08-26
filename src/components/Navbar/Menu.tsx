@@ -14,7 +14,29 @@ export default function Menu({ isOpen, setIsOpen }: IMenuProps) {
   return (
     <StyledMenu isOpen={isOpen}>
       <XButton onClick={() => setIsOpen(false)}>
-        <i className="far fa-window-close"></i>
+        <svg
+          viewBox="0 0 120 120"
+          height="120"
+          width="120"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g transform="matrix(5,0,0,5,0,0)">
+            <path
+              d="M0.5 0.499L23.5 23.499"
+              fill="none"
+              stroke="#000000"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            ></path>
+            <path
+              d="M23.5 0.499L0.5 23.499"
+              fill="none"
+              stroke="#000000"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            ></path>
+          </g>
+        </svg>
       </XButton>
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active" onClick={() => setIsOpen(false)}>
@@ -58,11 +80,15 @@ const StyledMenu = styled.div<IStyledMenuProps>`
 `;
 
 const XButton = styled.button`
+  align-items: center;
+  background: none;
+  display: flex;
   height: 40px;
-  width: 40px;
+  justify-content: center;
   position: absolute;
   right: 20px;
   top: 20px;
+  width: 40px;
 
   svg {
     height: 20px;
