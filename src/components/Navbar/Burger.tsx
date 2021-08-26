@@ -25,7 +25,7 @@ const StyledBurger = styled.button<IStyledBurgerProps>`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 35px;
+  height: 45px;
   background: transparent;
   cursor: pointer;
   padding: 0.25rem 0.75rem;

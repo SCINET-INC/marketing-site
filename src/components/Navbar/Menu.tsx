@@ -24,24 +24,19 @@ export default function Menu({ isOpen, setIsOpen }: IMenuProps) {
         </svg>
       </XButton>
       <ul className="navbar-nav mr-auto">
-        <li className="nav-item active">
+        <li className="nav-item active" onClick={() => setIsOpen(false)}>
           <a className="nav-link" href="#">
             Home
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" onClick={() => setIsOpen(false)}>
           <a className="nav-link" href="#service">
             Service
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" onClick={() => setIsOpen(false)}>
           <a className="nav-link" href="#contact">
             Contact
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Sign Up
           </a>
         </li>
       </ul>

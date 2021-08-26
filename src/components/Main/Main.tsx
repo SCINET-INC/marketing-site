@@ -156,9 +156,6 @@ export default function Main() {
                 </p>
               </div>
             </div>
-            <a className="read_more" href="#why">
-              Read More
-            </a>
           </div>
         </div>
       </div>
@@ -193,9 +190,6 @@ export default function Main() {
                   collaboration.
                 </p>
               </div>
-              <a className="read_more bg" href="#">
-                Read More
-              </a>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
@@ -211,9 +205,6 @@ export default function Main() {
                   asset class for your portfolio or clients.
                 </p>
               </div>
-              <a className="read_more bg" href="#">
-                Read More
-              </a>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
@@ -228,9 +219,6 @@ export default function Main() {
                   research goals.
                 </p>
               </div>
-              <a className="read_more bg" href="#">
-                Read More
-              </a>
             </div>
           </div>
         </div>
@@ -288,13 +276,6 @@ export default function Main() {
               <div className="col-md-10 offset-md-1">
                 <div className="cont">
                   <h3>Contact now</h3>
-                  <span>Blah blah blah, filler text</span>
-                  <p>
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quissed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis
-                  </p>
                 </div>
               </div>
             </div>

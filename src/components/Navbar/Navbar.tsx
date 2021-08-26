@@ -40,11 +40,6 @@ export default function Navbar({}) {
                     Contact
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Sign Up
-                  </a>
-                </li>
               </ul>
             </nav>
           </DesktopNav>
