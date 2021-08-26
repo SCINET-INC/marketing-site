@@ -17,6 +17,10 @@ export default function Home() {
           href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
           media="screen"
         />
+        {/* <Script
+          src="https://kit.fontawesome.com/4eea3831a3.js"
+          crossorigin="anonymous"
+        ></Script> */}
       </Head>
       <main>
         <Main />
