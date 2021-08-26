@@ -1,71 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Link from "next/link";
+import Burger from "./Burger";
+import Menu from "./Menu";
 
 export default function Navbar({}) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header>
       <Header className="header">
-        <div className="container">
-          <div className="row">
-            <div
-              className="
-                col-xl-3 col-lg-3 col-md-3 col-sm-3 col
-                logo_section logo-wrapper
-              "
-            >
-              <div className="full">
-                <div className="center-desk">
-                  <div className="logo">
-                    <Link href="/">
-                      <h2 className="nav-logo">SCINET</h2>
-                    </Link>
-                  </div>
-                </div>
+        <Row>
+          <div className="logo_section logo-wrapper">
+            <div className="full">
+              <div className="center-desk">
+                <Link href="/">
+                  <h2 className="nav-logo">SCINET</h2>
+                </Link>
               </div>
-            </div>
-            <div className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-              <nav className="navigation navbar navbar-expand-md navbar-dark">
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarsExample04"
-                  aria-controls="navbarsExample04"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarsExample04">
-                  <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                      <a className="nav-link" href="#">
-                        Home
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#service">
-                        {" "}
-                        Service
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#contact">
-                        Contact
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#">
-                        Sign Up
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+              <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
+              <Menu isOpen={isOpen} setIsOpen={setIsOpen} />
             </div>
           </div>
-        </div>
+          <DesktopNav className="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+            <nav className="navigation navbar navbar-expand-md navbar-dark">
+              <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
+                  <a className="nav-link" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#service">
+                    Service
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#contact">
+                    Contact
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Sign Up
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </DesktopNav>
+        </Row>
       </Header>
     </header>
   );
@@ -74,5 +57,24 @@ export default function Navbar({}) {
 const Header = styled.div`
   background: #0c0f38;
   width: 100%;
-  padding: 40px 40px 40px 40px;
+  padding: 5px 10px;
+
+  @media and screen (min-width: 576px) {
+    padding: 40px;
+  }
+`;
+
+const DesktopNav = styled.div`
+  display: none;
+  justify-content: flex-end;
+  margin-left: auto;
+
+  @media (min-width: 786px) {
+    display: flex;
+  }
+`;
+
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
 `;

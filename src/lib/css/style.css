@@ -194,7 +194,10 @@ button {
 }
 
 .full {
+  align-items: center;
+  display: flex;
   float: left;
+  padding-top: 15px;
   width: 100%;
 }
 
@@ -288,7 +291,6 @@ button {
 .header {
   background: #0c0f38;
   width: 100%;
-  padding: 40px 40px 40px 40px;
 }
 
 .logo a {
@@ -308,8 +310,8 @@ button {
 
 .text-bg h1 {
   color: #fff;
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 3.5em;
+  line-height: 50px;
   padding-bottom: 25px;
   font-weight: bold;
 }
@@ -691,3 +693,18 @@ button {
 }
 
 /** end footer **/
+
+@media (min-width: 768px) {
+  .text-bg h1 {
+    font-size: 3em;
+  }
+  .banner_main {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1000px) {
+  .text-bg h1 {
+    font-size: 3.5em;
+  }
+}

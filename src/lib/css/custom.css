@@ -4,16 +4,24 @@
 }
 
 .logo-wrapper {
-  display: flex;
   align-items: center;
+  display: flex;
+  width: 100%;
 }
 
 .hero-header {
+  padding-top: 50px;
   text-align: center;
 }
 
 @media (min-width: 500px) {
   .hero-header {
     text-align: left;
+  }
+}
+
+@media (min-width: 786px) {
+  .logo-wrapper {
+    width: auto;
   }
 }
