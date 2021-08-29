@@ -26,6 +26,11 @@
     padding: 10px 23px;
     float: inherit;
     max-width: 156px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   .Services .Services-box {
     padding: 25px 15px;
@@ -56,9 +61,6 @@
   .cont {
     margin-top: 47%;
   }
-  .main_form {
-    margin-bottom: -92%;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -84,9 +86,6 @@
   }
   .cont {
     margin-top: 50%;
-  }
-  .main_form {
-    margin-bottom: -58%;
   }
   .cont span {
     font-size: 20px;
@@ -160,7 +159,6 @@
     margin-top: 89%;
   }
   .main_form {
-    margin-bottom: -102%;
     padding: 55px 15px;
   }
   .navigation.navbar {

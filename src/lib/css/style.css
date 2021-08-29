@@ -340,6 +340,11 @@ button {
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-bg a:hover {
@@ -577,9 +582,11 @@ button {
 
 .main_form {
   background: #0c0f38;
-  padding: 55px 55px;
+  padding: 30px;
   border-radius: 30px;
-  margin-bottom: -58%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact .main_form .contactus {
@@ -700,6 +707,11 @@ button {
   }
   .banner_main {
     height: 100vh;
+  }
+
+  .text-bg a {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 

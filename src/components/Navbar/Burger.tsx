@@ -22,6 +22,7 @@ export default function Burger({ isOpen, setIsOpen }: IBurgerProps) {
 
 const StyledBurger = styled.button<IStyledBurgerProps>`
   border: 1px solid #fff;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -44,20 +45,6 @@ const StyledBurger = styled.button<IStyledBurgerProps>`
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
-
-    :first-child {
-      transform: ${({ isOpen }) => (isOpen ? "rotate(45deg)" : "rotate(0)")};
-    }
-
-    :nth-child(2) {
-      opacity: ${({ isOpen }) => (isOpen ? "0" : "1")};
-      transform: ${({ isOpen }) =>
-        isOpen ? "translateX(20px)" : "translateX(0)"};
-    }
-
-    :nth-child(3) {
-      transform: ${({ isOpen }) => (isOpen ? "rotate(-45deg)" : "rotate(0)")};
-    }
   }
 
   @media screen and (min-width: 768px) {

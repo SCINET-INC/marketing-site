@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import React from "react";
-import { Navbar } from "..";
+import { Contact, Navbar } from "..";
 import { prefix } from "../../lib/prefix";
 import {
   CloudHand,
@@ -217,62 +217,17 @@ export default function Main() {
         </div>
       </div>
       <div id="contact" className="contact">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 offset-md-3">
-              <form className="main_form">
-                <div className="row">
-                  <div className="col-sm-12">
-                    <input
-                      className="contactus"
-                      placeholder="Name"
-                      type="text"
-                      name="Name"
-                    />
-                  </div>
-                  <div className="col-sm-12">
-                    <input
-                      className="contactus"
-                      placeholder="Email"
-                      type="text"
-                      name=" Email"
-                    />
-                  </div>
-                  <div className="col-sm-12">
-                    <input
-                      className="contactus"
-                      placeholder="Phone"
-                      type="text"
-                      name="Phone"
-                    />
-                  </div>
-                  <div className="col-sm-12">
-                    <textarea
-                      className="textarea"
-                      placeholder="Message"
-                      name="Message"
-                    ></textarea>
-                  </div>
-                  <div className="col-sm-12">
-                    <button className="send">Send</button>
-                  </div>
-                </div>
-              </form>
+        <div className="row">
+          <div className="col-md-12">
+            <div className="titlepage">
+              <h2>Let's connect!</h2>
             </div>
           </div>
         </div>
+        <Contact />
       </div>
-      <footer>
-        <div className="footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-10 offset-md-1">
-                <div className="cont">
-                  <h3>Contact now</h3>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div>
+        <footer>
           <div className="copyright">
             <div className="container">
               <div className="row">
@@ -282,8 +237,8 @@ export default function Main() {
               </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </>
   );
 }
