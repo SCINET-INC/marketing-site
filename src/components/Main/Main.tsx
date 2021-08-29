@@ -4,6 +4,17 @@
 import React from "react";
 import { Navbar } from "..";
 import { prefix } from "../../lib/prefix";
+import {
+  CloudHand,
+  DatabaseCash,
+  Diamond,
+  DonationHeart,
+  EarthShare,
+  FlowChart,
+  Presentation,
+  TeamChat,
+  TextShield,
+} from "../Icons";
 
 export default function Main() {
   return (
@@ -84,9 +95,7 @@ export default function Main() {
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service1.png`} alt="#" />
-                </i>
+                <CloudHand color="#ffffff" />
                 <h3>Enhance your Research</h3>
                 <p>
                   Access our revolutionary, blockchain-powered cloud laboratory
@@ -96,9 +105,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service2.png`} alt="#" />
-                </i>
+                <DonationHeart color="#ffffff" />
                 <h3>Get the Funding You Need</h3>
                 <p>
                   Ensure your work’s continuity by finding unique and untapped
@@ -108,9 +115,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service3.png`} alt="#" />
-                </i>
+                <TextShield color="#ffffff" />
                 <h3>Secure your Intellectual Property</h3>
                 <p>
                   Document your intellectual property on an immutable blockchain
@@ -121,9 +126,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service4.png`} alt="#" />
-                </i>
+                <DatabaseCash color="#ffffff" />
                 <h3>Invest in Science and Data</h3>
                 <p>
                   Participate in the growth, potential, and excitement of the
@@ -134,9 +137,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service5.png`} alt="#" />
-                </i>
+                <EarthShare color="#ffffff" />
                 <h3>Decentralized Publishing and Peer Review</h3>
                 <p>
                   Publish your research with rigorous peer review from the
@@ -146,9 +147,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="Services-box">
-                <i>
-                  <img src={`${prefix}/service6.png`} alt="#" />
-                </i>
+                <TeamChat color="#ffffff" />
                 <h3>Help Others Leverage your Data</h3>
                 <p>
                   Collaborate with scientists around the world to enhance shared
@@ -177,9 +176,7 @@ export default function Main() {
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div id="box_ho" className="why-box">
-                <i>
-                  <img src={`${prefix}/why1.png`} alt="#" />
-                </i>
+                <FlowChart color="black" />
                 <h3>Organic Enhancement of Laboratory Workflows</h3>
                 <p>
                   Unlike off-the-shelf, noncompliant digital tools like Google
@@ -193,9 +190,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
-                <i>
-                  <img src={`${prefix}/why2.png`} alt="#" />
-                </i>
+                <Diamond color="black" />
                 <h3>One-of-a-kind Investment Opportunities</h3>
                 <p>
                   Whether you are a retail investor looking for the next
@@ -208,9 +203,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
-                <i>
-                  <img src={`${prefix}/why3.png`} alt="#" />
-                </i>
+                <Presentation color="black" />
                 <h3>Novel Funding Sources and Revenue Streams for your Lab</h3>
                 <p>
                   From raising funds for a new research project, to university
