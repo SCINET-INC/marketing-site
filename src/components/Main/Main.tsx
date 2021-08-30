@@ -82,7 +82,7 @@ export default function Main() {
           <div className="row">
             <div className="col-md-12">
               <div className="titlepage">
-                <h2>Crowdfunding Made Easy</h2>
+                <h2>Holistic Research Ecosystem</h2>
                 {/* <p>
                   Lorem ipsum dolor sittem ametamngcing elit, per sed do
                   eiusmoad
