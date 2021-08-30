@@ -5,5 +5,5 @@ export { default as DatabaseCash } from "./DatabaseCash";
 export { default as EarthShare } from "./EarthShare";
 export { default as TeamChat } from "./TeamChat";
 export { default as Diamond } from "./Diamond";
-export { default as FlowChart } from "./FlowChart";
+export { default as MoneyBag } from "./MoneyBag";
 export { default as Presentation } from "./Presentation";

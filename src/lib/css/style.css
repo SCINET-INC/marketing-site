@@ -272,14 +272,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-  color: #fdd430;
+  color: #caff33;
 }
 
 .navigation.navbar-dark .navbar-nav .active > .nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-  color: #fdd430;
+  color: #caff33;
 }
 
 /*-- header area --*/
@@ -289,7 +289,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header {
-  background: #0c0f38;
+  background: #001232;
   width: 100%;
 }
 
@@ -303,7 +303,7 @@ button {
 
 .banner_main {
   display: flex;
-  background: #0c0f38;
+  background: #001232;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 90px;
@@ -318,7 +318,7 @@ button {
 }
 
 .text-bg span {
-  color: #fdd430;
+  color: #caff33;
   font-size: 40px;
   line-height: 35px;
   font-weight: bold;
@@ -421,7 +421,7 @@ button {
 .Services {
   margin-top: 90px;
   padding: 60px 0;
-  background: #0c0f38;
+  background: #001232;
   font-family: Poppins;
 }
 
@@ -471,7 +471,7 @@ button {
 }
 
 .Services .Services-box:hover {
-  background: #8308eb;
+  background: #7400b8;
   transition: ease-in all 0.5s;
   cursor: pointer;
 }
@@ -497,7 +497,7 @@ button {
 }
 
 .read_more:hover {
-  background: #8308eb;
+  background: #7400b8;
   color: #fff;
 }
 
@@ -568,7 +568,7 @@ button {
 }
 
 .bg:hover {
-  background: #8308eb;
+  background: #7400b8;
   color: #fff;
 }
 
@@ -582,7 +582,7 @@ button {
 }
 
 .main_form {
-  background: #0c0f38;
+  background: #001232;
   padding: 30px;
   border-radius: 30px;
   max-width: 500px;
@@ -617,7 +617,7 @@ button {
   font-size: 16px;
   transition: ease-in all 0.5s;
   background-color: #fff;
-  color: #ef4259;
+  color: #7400b8;
   padding: 12px 70px;
   margin: 0 auto;
   display: block;
@@ -625,7 +625,7 @@ button {
 }
 
 .contact .main_form .send:hover {
-  background-color: #8308eb;
+  background-color: #7400b8;
   transition: ease-in all 0.5s;
   color: #fff;
 }
@@ -647,7 +647,7 @@ button {
 
 .footer {
   font-family: Poppins;
-  background: #0c0f38;
+  background: #001232;
 }
 
 .cont {

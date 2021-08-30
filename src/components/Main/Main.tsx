@@ -10,7 +10,7 @@ import {
   Diamond,
   DonationHeart,
   EarthShare,
-  FlowChart,
+  MoneyBag,
   Presentation,
   TeamChat,
   TextShield,
@@ -42,7 +42,7 @@ export default function Main() {
             <div className="col-md-7">
               <div className="text-img">
                 <figure>
-                  <img src={`${prefix}/img.png`} alt="get-started" />
+                  <img src={`${prefix}/hero.png`} alt="get-started" />
                 </figure>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function Main() {
             <div className="col-md-12">
               <div className="web_hosting">
                 <figure>
-                  <img src={`${prefix}/web.jpg`} alt="#" />
+                  <img src={`${prefix}/banner.png`} alt="#" />
                 </figure>
                 <p>
                   We know that your work means more to you than anything. SCINET
@@ -176,7 +176,7 @@ export default function Main() {
           <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div id="box_ho" className="why-box">
-                <FlowChart color="black" />
+                <Presentation color="black" />
                 <h3>Organic Enhancement of Laboratory Workflows</h3>
                 <p>
                   Unlike off-the-shelf, noncompliant digital tools like Google
@@ -203,7 +203,7 @@ export default function Main() {
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
               <div className="why-box">
-                <Presentation color="black" />
+                <MoneyBag color="black" />
                 <h3>Novel Funding Sources and Revenue Streams for your Lab</h3>
                 <p>
                   From raising funds for a new research project, to university

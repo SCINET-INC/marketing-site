@@ -50,7 +50,7 @@ export default function Navbar({}) {
 }
 
 const Header = styled.div`
-  background: #0c0f38;
+  background: #001232;
   width: 100%;
   padding: 5px 10px;
 
