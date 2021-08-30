@@ -83,12 +83,12 @@ export default function Main() {
             <div className="col-md-12">
               <div className="titlepage">
                 <h2>Crowdfunding Made Easy</h2>
-                <p>
+                {/* <p>
                   Lorem ipsum dolor sittem ametamngcing elit, per sed do
                   eiusmoad
                   <br />
                   teimpor sittem elit inuning ut sed.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -164,12 +164,12 @@ export default function Main() {
             <div className="col-md-12">
               <div className="titlepage">
                 <h2>Why you should choose SCINET</h2>
-                <p>
+                {/* <p>
                   making it look like readable English. Many desktop publishing
                   packages and web page editors now use Lorem Ipsum as their
                   default model text, and a search for 'lorem ipsum' will
                   uncover many web sites still
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
