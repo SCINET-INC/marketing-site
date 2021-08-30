@@ -29,7 +29,7 @@ export default function Main() {
                   Decentralized Scientific Research
                 </h1>
                 <p>
-                  SCINET is a decentralized life sciences research and
+                  SCINET is a decentralized life sciences ("DeSci") research and
                   investment platform that revolutionizes the way people do and
                   support science. Powered by blockchain technologies, SCINET
                   allows retail and institutional investors to invest directly
