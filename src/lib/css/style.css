@@ -367,7 +367,7 @@ button {
 }
 
 .titlepage h2 {
-  font-size: 45px;
+  font-size: 25px;
   color: #0c0f38;
   line-height: 40px;
   font-weight: bold;
@@ -392,7 +392,7 @@ button {
   color: #0c0f38;
   font-size: 17px;
   line-height: 28px;
-  padding: 40px 50px;
+  padding: 40px 30px;
 }
 
 .web_hosting a {
@@ -714,6 +714,10 @@ button {
   .text-bg a {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .titlepage h2 {
+    font-size: 45px;
   }
 }
 
