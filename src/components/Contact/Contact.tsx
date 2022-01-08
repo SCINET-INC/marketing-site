@@ -92,7 +92,7 @@ export default function Contact({}) {
   };
 
   return (
-    <form className="main_form" onSubmit={onSubmit}>
+    <Form className="main_form" onSubmit={onSubmit}>
       <input
         className="contactus"
         placeholder="Name"
@@ -133,7 +133,7 @@ export default function Contact({}) {
       >
         {isLoading ? "Loading" : hasSubmitted ? "Submitted" : "Send"}
       </Button>
-    </form>
+    </Form>
   );
 }
 
@@ -147,4 +147,10 @@ const Button = styled.button`
 
 const Error = styled.span`
   color: red;
+`;
+
+const Form = styled.form`
+  @media (min-width: 500px) {
+    border-radius: 30px;
+  }
 `;
