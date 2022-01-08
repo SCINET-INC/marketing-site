@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import Link from "next/link";
+import { prefix } from "../../lib/prefix";
 import Burger from "./Burger";
 import Menu from "./Menu";
 
-export default function Navbar({}) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <header>
       <Header className="header">
@@ -15,7 +15,7 @@ export default function Navbar({}) {
             <div className="full">
               <div className="center-desk">
                 <Link href="/">
-                  <h2 className="nav-logo">SCINET</h2>
+                  <LogoImg src={`${prefix}/logo.png`} alt="logo" />
                 </Link>
               </div>
               <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
@@ -72,4 +72,12 @@ const DesktopNav = styled.div`
 const Row = styled.div`
   display: flex;
   flex-direction: row;
+`;
+
+const LogoImg = styled.img`
+  height: 60px;
+
+  @media (min-width: 768px) {
+    height: 75px;
+  }
 `;

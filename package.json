@@ -24,6 +24,7 @@
     "verdad-js": "^0.0.4"
   },
   "devDependencies": {
+    "@types/classnames": "^2.3.1",
     "@types/react": "17.0.15",
     "@types/styled-components": "^5.1.12",
     "babel-plugin-module-resolver": "^4.0.0",

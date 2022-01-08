@@ -17,6 +17,7 @@ import {
 } from "../Icons";
 
 export default function Main() {
+  const date = new Date();
   return (
     <>
       <Navbar />
@@ -232,7 +233,7 @@ export default function Main() {
             <div className="container">
               <div className="row">
                 <div className="col-md-12">
-                  <p>© SCINET 2021 All Rights Reserved.</p>
+                  <p>© SCINET {date.getFullYear()} All Rights Reserved.</p>
                 </div>
               </div>
             </div>

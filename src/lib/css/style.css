@@ -584,7 +584,6 @@ button {
 .main_form {
   background: #001232;
   padding: 30px;
-  border-radius: 30px;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -613,7 +612,7 @@ button {
   background: #fff;
 }
 
-.contact .main_form .send {
+.contact .send {
   font-size: 16px;
   transition: ease-in all 0.5s;
   background-color: #fff;

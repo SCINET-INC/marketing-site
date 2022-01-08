@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>SCINET</title>
         <meta name="description" content="Science, decentralized." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/flask.ico" />
         {/* <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"

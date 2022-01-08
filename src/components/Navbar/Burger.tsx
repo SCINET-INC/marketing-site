@@ -47,7 +47,7 @@ const StyledBurger = styled.button<IStyledBurgerProps>`
     transform-origin: 1px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 801px) {
     display: none;
   }
 `;
