@@ -7,3 +7,5 @@ export { default as TeamChat } from "./TeamChat";
 export { default as Diamond } from "./Diamond";
 export { default as MoneyBag } from "./MoneyBag";
 export { default as Presentation } from "./Presentation";
+export { default as Twitter } from "./Twitter";
+export { default as LinkedIn } from "./LinkedIn";

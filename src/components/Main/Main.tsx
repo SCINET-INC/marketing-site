@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
 
 import React from "react";
-import { Contact, Navbar } from "..";
+import { Contact, Navbar, Team } from "..";
 import { prefix } from "../../lib/prefix";
 import {
   CloudHand,
@@ -215,6 +214,24 @@ export default function Main() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="team" className="dark-container">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="titlepage">
+                <h2>Meet Our Team</h2>
+                {/* <p>
+                  Lorem ipsum dolor sittem ametamngcing elit, per sed do
+                  eiusmoad
+                  <br />
+                  teimpor sittem elit inuning ut sed.
+                </p> */}
+              </div>
+            </div>
+          </div>
+          <Team />
         </div>
       </div>
       <div id="contact" className="contact">
