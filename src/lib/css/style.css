@@ -577,7 +577,7 @@ button {
 /** contact section **/
 
 .contact {
-  padding-top: 90px;
+  padding-top: 75px;
   font-family: Poppins;
 }
 
@@ -641,6 +641,39 @@ button {
 }
 
 /** end contact section **/
+
+/** team **/
+.dark-container {
+  margin-top: 90px;
+  padding: 60px 0;
+  background: #001232;
+  font-family: Poppins;
+}
+
+#team .titlepage h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.profile-box {
+  border-radius: 20px;
+  border: #cecfd7 solid 2px;
+}
+
+.dark-container h3 {
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.role-title {
+  color: #caff33;
+}
+
+#team p {
+  color: white;
+}
+/** end team section **/
 
 /** footer **/
 
