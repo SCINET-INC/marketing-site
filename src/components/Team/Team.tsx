@@ -12,11 +12,8 @@ export default function Team({}) {
           Jordan Smith <span className="role-title">Co-Founder & CEO</span>
         </h3>
         <p>
-          Unlike off-the-shelf, noncompliant digital tools like Google Docs and
-          Evernote, or even last-gen electronic lab notebooks, SCINET cloud
-          laboratory is uniquely designed with a simple-to-deploy intuitive user
-          interface that promotes good science, meets regulatory compliance, and
-          facilitates collaboration.
+          Social entrepreneur, technologist, and science enthusiast, passionate
+          about creating solutions that change the world.
         </p>
         <ButtonSpan>
           <Link href="https://www.linkedin.com/in/jordansmithcfe/">
@@ -32,16 +29,13 @@ export default function Team({}) {
         </ButtonSpan>
       </div>
       <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-        <ProfileImg alt="kaitlin" src={`${prefix}/kaitlin.png`} />
+        <ProfileImg alt="kaitlin" src={`${prefix}/kaitlin-headshot.jpeg`} />
         <h3>
           Kaitlin Cauchon <span className="role-title">Co-Founder & COO</span>
         </h3>
         <p>
-          Unlike off-the-shelf, noncompliant digital tools like Google Docs and
-          Evernote, or even last-gen electronic lab notebooks, SCINET cloud
-          laboratory is uniquely designed with a simple-to-deploy intuitive user
-          interface that promotes good science, meets regulatory compliance, and
-          facilitates collaboration.
+          Accomplished microbiologist, public health professional, and sales
+          leader committed to advancing humanity through science and technology
         </p>
         <ButtonSpan>
           <Link href="https://www.linkedin.com/in/kaitlin-cauchon-ms-emba-b6200b88/">
@@ -62,11 +56,13 @@ export default function Team({}) {
           Hank Brigham <span className="role-title">Co-Founder & CTO</span>
         </h3>
         <p>
-          An avid technologist with over five years of experience as a software
+          Serial entrepreneur, technologist, and leader building decentralized
+          tools for humans.
+          {/* An avid technologist with over five years of experience as a software
           engineer, team lead, and CTO at other startups. Hank has led developer
           teams, managed the design and product organizations for startups, and
           architected advanced software solutions for complex API integrations
-          and UX optimization.
+          and UX optimization. */}
         </p>
         <ButtonSpan>
           <Link href="https://www.linkedin.com/in/hank-brigham/">
@@ -93,6 +89,10 @@ const IconButton = styled.button`
   background: transparent;
   display: flex;
   margin: 0 0.5em;
+
+  &:hover {
+    color: blue;
+  }
 `;
 
 const ButtonSpan = styled.span`
