@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import React from "react";
-import { Contact, Navbar, Team } from "..";
+import { Contact, Navbar, Team, Tech } from "..";
 import { prefix } from "../../lib/prefix";
 import {
   CloudHand,
@@ -216,6 +216,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <Tech />
       <div id="team" className="dark-container">
         <div className="container">
           <div className="row">

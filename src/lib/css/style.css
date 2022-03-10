@@ -650,7 +650,7 @@ button {
   font-family: Poppins;
 }
 
-#team .titlepage h2 {
+#tech .titlepage h2 {
   color: #fff;
   padding-bottom: 20px;
 }
@@ -670,7 +670,7 @@ button {
   color: #caff33;
 }
 
-#team p {
+#tech p {
   color: white;
 }
 /** end team section **/
