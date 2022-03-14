@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import React from "react";
-import { Contact, Navbar, Team } from "..";
+
+import { Contact, Footer, Navbar, Team } from "..";
 import { prefix } from "../../lib/prefix";
 import {
   CloudHand,
@@ -245,17 +246,7 @@ export default function Main() {
         <Contact />
       </div>
       <div>
-        <footer>
-          <div className="copyright">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <p>© SCINET {date.getFullYear()} All Rights Reserved.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </>
   );
