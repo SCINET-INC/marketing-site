@@ -15,13 +15,13 @@ export default function Tech({}) {
                 alt="get-started"
               />
               {/* <DfinityLogo /> */}
-              <p>Self-sustaining</p>
+              {/* <p>Self-sustaining</p> */}
               <p>
                 Unlike conventional blockchain technologies, the Internet
                 Computer allows for the creation of a truly decentralized
                 software ecosystem. We envision a DeSci experience with
-                simplified finance, top-tier user experience, powerful
-                tokenomics, and web speed.
+                simplified finance, top-tier user experience, and powerful
+                tokenomics all at web speed.
               </p>
             </div>
             <ListContainer>
