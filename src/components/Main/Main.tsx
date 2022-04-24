@@ -16,7 +16,6 @@ import {
 } from "../Icons";
 
 export default function Main() {
-  const date = new Date();
   return (
     <>
       <Navbar />
