@@ -33,18 +33,18 @@ export default function Home() {
           content="SCINET is an online platform for decentralized science. Invest, research, and monetize all on the blockchain."
         />
         <meta key="og_site_name" property="og:site_name" content="SCINET" />
-        <meta key="og_url" property="og:url" content="https://sci-net.io/" />
+        <meta key="og_url" property="og:url" content="https://scinet.one/" />
         <meta
           key="og_image"
           property="og:image"
-          content="https://www.sci-net.io/banner.png"
+          content="https://www.scinet.one/banner.png"
         />
         <meta key="twitter_card" name="twitter:card" content="summary" />
         <meta key="twitter_site" name="twitter:site" content="SCINET" />
         <meta
           key="twitter_image_url"
           name="twitter:image"
-          content="https://www.sci-net.io/banner.png"
+          content="https://www.scinet.one/banner.png"
         />
         <meta
           key="twitter_description"
