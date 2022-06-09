@@ -223,12 +223,6 @@ export default function Main() {
             <div className="col-md-12">
               <div className="titlepage">
                 <h2>Meet Our Team</h2>
-                {/* <p>
-                  Lorem ipsum dolor sittem ametamngcing elit, per sed do
-                  eiusmoad
-                  <br />
-                  teimpor sittem elit inuning ut sed.
-                </p> */}
               </div>
             </div>
           </div>
