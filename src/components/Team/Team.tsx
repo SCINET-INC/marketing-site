@@ -60,11 +60,6 @@ export default function Team({}) {
           <p>
             Serial entrepreneur, technologist, and leader building decentralized
             tools for humans.
-            {/* An avid technologist with over five years of experience as a software
-          engineer, team lead, and CTO at other startups. Hank has led developer
-          teams, managed the design and product organizations for startups, and
-          architected advanced software solutions for complex API integrations
-          and UX optimization. */}
           </p>
           <ButtonSpan>
             <Link href="https://www.linkedin.com/in/hank-brigham/">
@@ -94,8 +89,8 @@ export default function Team({}) {
             Nick Sullivan <span className="role-title">Entrepreneur</span>
           </h3>
           <p>
-            Social entrepreneur, technologist, and science enthusiast,
-            passionate about creating solutions that change the world.
+            Nick is a heart-centered technology leader and the founder & CEO of
+            HeartRithm, a crypto quant fund with a social impact mission.
           </p>
           <ButtonSpan>
             <Link href="https://www.linkedin.com/in/nicksullivan/">
@@ -104,29 +99,6 @@ export default function Team({}) {
               </IconButton>
             </Link>
             <Link href="https://twitter.com/gorillamania">
-              <IconButton>
-                <Twitter color="#caff33" />
-              </IconButton>
-            </Link>
-          </ButtonSpan>
-        </ProfileSection>
-        <ProfileSection className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-          <ProfileImg alt="kaitlin" src={`${prefix}/nickSullivan.jpeg`} />
-          <h3>
-            Some Guy <span className="role-title">Investor</span>
-          </h3>
-          <p>
-            Accomplished microbiologist, public health professional, and sales
-            leader committed to advancing humanity through science and
-            technology
-          </p>
-          <ButtonSpan>
-            <Link href="https://www.linkedin.com/in/kaitlin-cauchon-ms-emba-b6200b88/">
-              <IconButton>
-                <LinkedIn color="#caff33" />
-              </IconButton>
-            </Link>
-            <Link href="https://twitter.com/kcauchon">
               <IconButton>
                 <Twitter color="#caff33" />
               </IconButton>
