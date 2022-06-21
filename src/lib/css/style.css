@@ -366,12 +366,13 @@ button {
   padding-bottom: 60px;
 }
 
-.titlepage h2 {
+.H2Black {
   font-size: 25px;
   color: #0c0f38;
   line-height: 40px;
   font-weight: bold;
   padding: 0;
+  text-align: center;
 }
 
 /** Hosting section **/
@@ -650,7 +651,7 @@ button {
   font-family: Poppins;
 }
 
-#team .titlepage h2 {
+#tech .titlepage h2 {
   color: #fff;
   padding-bottom: 20px;
 }
@@ -670,9 +671,6 @@ button {
   color: #caff33;
 }
 
-#team p {
-  color: white;
-}
 /** end team section **/
 
 /** footer **/

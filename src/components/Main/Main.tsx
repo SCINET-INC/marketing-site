@@ -1,8 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import React from "react";
-
-import { Contact, Footer, Navbar, Team } from "..";
+import { Contact, Footer, Navbar, Team, Tech } from "..";
 import { prefix } from "../../lib/prefix";
 import {
   CloudHand,
@@ -17,7 +16,6 @@ import {
 } from "../Icons";
 
 export default function Main() {
-  const date = new Date();
   return (
     <>
       <Navbar />
@@ -55,7 +53,7 @@ export default function Main() {
           <div className="row">
             <div className="col-md-12">
               <div className="titlepage">
-                <h2>Own Your Life's Work</h2>
+                <h2 className="H2Black">Own Your Life's Work</h2>
               </div>
             </div>
           </div>
@@ -164,7 +162,7 @@ export default function Main() {
           <div className="row">
             <div className="col-md-12">
               <div className="titlepage">
-                <h2>Why you should choose SCINET</h2>
+                <h2 className="H2Black">Why you should choose SCINET</h2>
                 {/* <p>
                   making it look like readable English. Many desktop publishing
                   packages and web page editors now use Lorem Ipsum as their
@@ -217,6 +215,7 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <Tech />
       <div id="team" className="dark-container">
         <div className="container">
           <div className="row">
@@ -233,7 +232,7 @@ export default function Main() {
         <div className="row">
           <div className="col-md-12">
             <div className="titlepage">
-              <h2>Let's connect!</h2>
+              <h2 className="H2Black">Let's connect!</h2>
             </div>
           </div>
         </div>
