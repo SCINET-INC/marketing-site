@@ -11,3 +11,6 @@ export { default as Presentation } from "./Presentation";
 export { default as Twitter } from "./Twitter";
 export { default as LinkedIn } from "./LinkedIn";
 export { default as CheckMark } from "./CheckMark";
+export { default as RightArrow } from "./RightArrow";
+
+export { default as PoweredByIcon } from "./PoweredBy";
