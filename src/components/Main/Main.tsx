@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import React from "react";
+import styled from "styled-components";
 import { Contact, Footer, Navbar, Team, Tech } from "..";
 import { prefix } from "../../lib/prefix";
 import {
@@ -221,7 +222,7 @@ export default function Main() {
           <div className="row">
             <div className="col-md-12">
               <div className="titlepage">
-                <h2>Meet Our Team</h2>
+                <MeetHeader>Meet Our Team</MeetHeader>
               </div>
             </div>
           </div>
@@ -244,3 +245,7 @@ export default function Main() {
     </>
   );
 }
+
+const MeetHeader = styled.h2`
+  color: #ffffff;
+`;
